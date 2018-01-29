@@ -9,7 +9,6 @@ def mystery_score(mystr):
     for ch in mystr:
         charsum += ord(ch)
 
-    print "Testing git"
     return charsum/totalScore
 
 if __name__ == "__main__":
